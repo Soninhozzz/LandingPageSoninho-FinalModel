@@ -1,0 +1,89 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+    --fundo: #121212;
+    --aura-mistica: #7209B7;
+    --sonho-profundo: #560BAD;
+    --ceu-crepusculo: #480CA8;
+    --foco-do-heroi: #3F37C9;
+    --despertar: #4361EE;
+    --luz-estelar: #F1F1F1;
+    --sussuro: #A9A9A9;
+    --voz-do-sabio: 'Lora', serif;
+    --voz-do-aprendiz: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    }
+
+body {
+        margin: 0;
+        font-family: 'var(--voz-do-aprendiz)', sans-serif;
+        padding-top: 56px;
+        background-color: var(--fundo);
+        color: var(--luz-estelar);
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--voz-do-sabio);
+    color: var(--despertar);
+}
+
+.navbar {
+    background-color: var(--ceu-crepusculo) !important;
+    border-bottom: 1px solid var(--aura-mistica);
+
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+     padding: 40px;
+    background-color: var(--fundo);
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--foco-do-heroi);
+    color: var(--luz-estelar);
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #9932CC;
+}
+
+.site-footer {
+    background-color: var(--fundo);
+    border-top: 1px solid var(--aura-mistica);
+}
+
+.site-footer p {
+    color: var(--sussuro);
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+.site-footer .mb-1{
+    color: var(--luz-estelar);
+}
